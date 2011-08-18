@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{readline_buffer_insert}
+  s.name = %q{readline_buffer}
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -9,20 +9,21 @@ Gem::Specification.new do |s|
   s.date = %q{2011-08-18}
   s.description = %q{## REQUIREMENTS:}
   s.email = [%q{godfat (XD) godfat.org}]
-  s.extensions = [%q{ext/readline_buffer_insert_ext/extconf.rb}]
+  s.extensions = [%q{ext/readline_buffer_ext/extconf.rb}]
   s.files = [
   %q{.gitignore},
   %q{.gitmodules},
   %q{README},
+  %q{README.md},
   %q{Rakefile},
-  %q{ext/readline_buffer_insert_ext/extconf.rb},
-  %q{ext/readline_buffer_insert_ext/readline_buffer_insert_ext.c},
-  %q{lib/readline_buffer_insert.rb},
-  %q{lib/readline_buffer_insert/version.rb},
-  %q{readline_buffer_insert.gemspec},
+  %q{ext/readline_buffer_ext/extconf.rb},
+  %q{ext/readline_buffer_ext/readline_buffer_ext.c},
+  %q{lib/readline_buffer.rb},
+  %q{lib/readline_buffer/version.rb},
+  %q{readline_buffer.gemspec},
   %q{task/.gitignore},
   %q{task/gemgem.rb}]
-  s.homepage = %q{https://github.com/godfat/readline_buffer_insert}
+  s.homepage = %q{https://github.com/godfat/readline_buffer}
   s.rdoc_options = [
   %q{--main},
   %q{README}]

@@ -1,11 +1,11 @@
-# readline_buffer_insert
+# readline_buffer
 
 by Lin Jen-Shin ([godfat](http://godfat.org))
 
 ## LINKS:
 
-* [github](https://github.com/godfat/readline_buffer_insert)
-* [rubygems](http://rubygems.org/gems/readline_buffer_insert)
+* [github](https://github.com/godfat/readline_buffer)
+* [rubygems](http://rubygems.org/gems/readline_buffer)
 
 ## DESCRIPTION:
 
@@ -13,11 +13,11 @@ by Lin Jen-Shin ([godfat](http://godfat.org))
 
 ## INSTALLATION:
 
-    gem install readline_buffer_insert
+    gem install readline_buffer
 
 ## SYNOPSIS:
 
-    Readline.line_buffer_insert('insert a string into rl_line_buffer')
+    Readline.line_buffer = 'p "replace rl_line_buffer"'
 
 ## LICENSE:
 
