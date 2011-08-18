@@ -7,9 +7,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Lin Jen-Shin (godfat)}]
   s.date = %q{2011-08-18}
-  s.description = %q{a
-
-b}
+  s.description = %q{## REQUIREMENTS:}
   s.email = [%q{godfat (XD) godfat.org}]
   s.extensions = [%q{ext/readline_buffer_insert_ext/extconf.rb}]
   s.files = [
@@ -21,6 +19,7 @@ b}
   %q{ext/readline_buffer_insert_ext/readline_buffer_insert_ext.c},
   %q{lib/readline_buffer_insert.rb},
   %q{lib/readline_buffer_insert/version.rb},
+  %q{readline_buffer_insert.gemspec},
   %q{task/.gitignore},
   %q{task/gemgem.rb}]
   s.homepage = %q{https://github.com/godfat/readline_buffer_insert}
@@ -29,7 +28,7 @@ b}
   %q{README}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.7}
-  s.summary = %q{a}
+  s.summary = %q{## REQUIREMENTS:}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
