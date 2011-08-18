@@ -9,7 +9,13 @@ by Lin Jen-Shin ([godfat](http://godfat.org))
 
 ## DESCRIPTION:
 
+Let you manipulate Readline.line_buffer
+
+Note, only GNU Readline is supported
+
 ## REQUIREMENTS:
+
+* GNU Readline, not EditLine
 
 ## INSTALLATION:
 

@@ -7,7 +7,9 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Lin Jen-Shin (godfat)}]
   s.date = %q{2011-08-18}
-  s.description = %q{## REQUIREMENTS:}
+  s.description = %q{Let you manipulate Readline.line_buffer
+
+Note, only GNU Readline is supported}
   s.email = [%q{godfat (XD) godfat.org}]
   s.extensions = [%q{ext/readline_buffer_ext/extconf.rb}]
   s.files = [
@@ -29,7 +31,7 @@ Gem::Specification.new do |s|
   %q{README}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.7}
-  s.summary = %q{## REQUIREMENTS:}
+  s.summary = %q{Let you manipulate Readline.line_buffer}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
