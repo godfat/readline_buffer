@@ -13,7 +13,7 @@ static VALUE readline_buffer_ext(VALUE self, VALUE str){
   rl_insert_text(RSTRING_PTR(str));
   rl_redisplay();
 
-  return rb_locale_str_new_cstr(rl_line_buffer);
+  return rb_str_new(rl_line_buffer, strlen(rl_line_buffer));
 }
 
 void Init_readline_buffer_ext() {
