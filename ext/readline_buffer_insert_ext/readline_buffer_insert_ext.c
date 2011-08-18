@@ -8,7 +8,10 @@
 static VALUE readline_buffer_insert_ext(VALUE self, VALUE str){
   rb_secure(4);
   StringValue(str);
+
   rl_insert_text(RSTRING_PTR(str));
+  rl_redisplay();
+
   return rb_locale_str_new_cstr(rl_line_buffer);
 }
 
