@@ -9,6 +9,9 @@ static VALUE readline_buffer_ext(VALUE self, VALUE str){
   rb_secure(4);
   StringValue(str);
 
+  if(rl_line_buffer == NULL)
+    return Qnil;
+
   rl_delete_text(0, rl_end);
   rl_insert_text(RSTRING_PTR(str));
   rl_redisplay();
