@@ -15,7 +15,7 @@ Note, only GNU Readline is supported
 
 ## REQUIREMENTS:
 
-* GNU Readline, not EditLine
+* GNU Readline, not Editline
 
 ## INSTALLATION:
 

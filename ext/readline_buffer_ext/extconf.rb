@@ -10,7 +10,7 @@ if have_header('readline/readline.h')
     create_makefile 'readline_buffer_ext'
 
   else
-    abort 'Only Readline (not EditLine) is supported'
+    abort 'Only Readline (not Editline) is supported'
   end
 else
   abort 'Readline not found'
