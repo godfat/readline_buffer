@@ -1,5 +1,4 @@
 
-#ifdef HAVE_READLINE_READLINE_H
 #include "ruby.h"
 #include <errno.h>
 #include <stdio.h>
@@ -24,5 +23,3 @@ void Init_readline_buffer_ext() {
     "line_buffer=",
     readline_buffer_ext, 1);
 }
-
-#endif
