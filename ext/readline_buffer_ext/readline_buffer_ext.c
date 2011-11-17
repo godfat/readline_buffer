@@ -11,7 +11,11 @@ static VALUE readline_buffer_ext(VALUE self, VALUE str){
   if(rl_line_buffer == NULL)
     return Qnil;
 
+#ifdef HAVE_RL_DELETE_TEXT
   rl_delete_text(0, rl_end);
+#else
+  rl_line_buffer[rl_end = 0] = '\0';
+#endif
   rl_insert_text(RSTRING_PTR(str));
   rl_redisplay();
 
