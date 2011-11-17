@@ -1,7 +1,5 @@
 
 #include "ruby.h"
-#include <errno.h>
-#include <stdio.h>
 #include <readline/readline.h>
 
 static VALUE readline_buffer_ext(VALUE self, VALUE str){
