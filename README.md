@@ -9,9 +9,9 @@ by Lin Jen-Shin ([godfat](http://godfat.org))
 
 ## DESCRIPTION:
 
-Let you manipulate Readline.line_buffer
+Let you manipulate `Readline.line_buffer`
 
-Note, only GNU Readline is supported
+Note, only GNU Readline is supported at the moment.
 
 ## REQUIREMENTS:
 
