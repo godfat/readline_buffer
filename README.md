@@ -5,7 +5,7 @@ by Lin Jen-Shin ([godfat](http://godfat.org))
 ## LINKS:
 
 * [github](https://github.com/godfat/readline_buffer)
-* [rubygems](http://rubygems.org/gems/readline_buffer)
+* [rubygems](https://rubygems.org/gems/readline_buffer)
 
 ## DESCRIPTION:
 
@@ -15,7 +15,7 @@ Note, only GNU Readline is supported at the moment.
 
 ## REQUIREMENTS:
 
-* GNU Readline, not Editline
+* GNU Readline, not Editline (libedit)
 
 ## INSTALLATION:
 
