@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lin Jen-Shin (godfat)"]
-  s.date = "2013-09-28"
+  s.date = "2013-09-29"
   s.description = "Let you manipulate `Readline.line_buffer`\n\nNote, only GNU Readline is supported at the moment."
   s.email = ["godfat (XD) godfat.org"]
   s.extensions = ["ext/readline_buffer_ext/extconf.rb"]
