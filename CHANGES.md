@@ -1,5 +1,9 @@
 # readline_buffer CHANGES
 
+## readline_buffer 1.0.0 -- 2020-01-23
+
+* Removed the call to rb_secure because it's deprecated in Ruby 2.7
+
 ## readline_buffer 0.9.2 -- 2011-12-14
 
 * Puts a warning for Editline (libedit) instead of failing to install it.

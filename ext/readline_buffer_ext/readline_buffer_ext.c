@@ -3,7 +3,6 @@
 #include <readline/readline.h>
 
 static VALUE readline_buffer_ext(VALUE self, VALUE str){
-  rb_secure(4);
   StringValue(str);
 
   if(rl_line_buffer == NULL)

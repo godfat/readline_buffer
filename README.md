@@ -30,4 +30,4 @@ Note, only GNU Readline is supported at the moment.
 GPL 3 if you're compiling against Readline,
 otherwise Apache License 2.0
 
-Copyright (c) 2011, Lin Jen-Shin (godfat)
+Copyright (c) 2011-2020, Lin Jen-Shin (godfat)
